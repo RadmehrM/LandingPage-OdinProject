@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +32,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 1100px;
     
 }
 .titleImg {
@@ -41,11 +42,12 @@
     gap: 50px;
     flex: 1;
     margin-top: 150px;
-    width: 900px;
+    width: 1100px;
     margin-bottom: 100px;
 }
 .links a {
     margin-left: 15px;
+    font-size: 18px;
 }
 
 .leftSide {
@@ -75,10 +77,20 @@
 }
 
 .randomInfoContainer{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
+
+.roundBoxContainer {
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+}
 .title {
-    padding: 65px;
+    padding: 30px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -106,7 +118,27 @@
     gap: 5px;
 }
 
-.roundBoxContainer {
+.quoteContainer {
+    padding:100px;
+    width: 100%;
+    background-color: #E5E7EB;
     display: flex;
-    gap:70px ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.saying {
+    font-size: 36px;
+}
+.author {
+    font-size: 24px;
+    font-weight: 600;
 }
