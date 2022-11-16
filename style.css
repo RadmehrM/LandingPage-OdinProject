@@ -1,0 +1,50 @@
+.top {
+    width:100%;
+    background-color: #1F2937;
+    color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: cen;
+}
+
+.top h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.top p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.titleImg {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 60px;
+}
+.links a {
+    margin-right: 15px;
+}
+
+.leftSide {
+    width: 400px;
+    height: auto;
+    flex: 1;
+    margin: 20px;
+}
+
+.rightSide {
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    flex: 1;
+    margin: 20px
+    
+}
