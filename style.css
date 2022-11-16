@@ -142,3 +142,52 @@
     font-size: 24px;
     font-weight: 600;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.callContainer {
+    background-color: #3882F6;
+    height: 120px;
+    width: 700px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #E5E7EB;
+    
+}
+
+.one {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.two {
+    font-size: 12px;
+    margin-top: -19px;
+    font-weight: 100;
+}
+.callContainer .signUp {
+    border: solid white;
+}
+
+.Calltext {
+    height: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    padding: 25px;
+    background-color: #1F2937;
+    color: white;
+    flex: 1;
+    
+}
